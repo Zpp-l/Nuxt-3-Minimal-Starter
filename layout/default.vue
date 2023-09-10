@@ -1,10 +1,10 @@
 <template>
   <div>
-    <NuxtPage/>
+    <AppHeader />
+    <slot />
+    <AppFooter />
   </div>
 </template>
-
 <script setup>
-const runtimeConfig = useRuntimeConfig()
 
 </script>
